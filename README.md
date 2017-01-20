@@ -1,13 +1,13 @@
 # Easy AdminLTE integration with Laravel 5
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jeroennoten/Laravel-AdminLTE.svg?style=flat-square)](https://packagist.org/packages/jeroennoten/Laravel-AdminLTE)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mzaman/Laravel-AdminLTE.svg?style=flat-square)](https://packagist.org/packages/mzaman/Laravel-AdminLTE)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/jeroennoten/Laravel-AdminLTE/master.svg?style=flat-square)](https://travis-ci.org/jeroennoten/Laravel-AdminLTE)
+[![Build Status](https://img.shields.io/travis/mzaman/Laravel-AdminLTE/master.svg?style=flat-square)](https://travis-ci.org/mzaman/Laravel-AdminLTE)
 [![StyleCI](https://styleci.io/repos/38200433/shield)](https://styleci.io/repos/38200433)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/64be4634-446d-473b-b551-b4e4c0e3f97a.svg?style=flat-square)](https://insight.sensiolabs.com/projects/64be4634-446d-473b-b551-b4e4c0e3f97a)
-[![Quality Score](https://img.shields.io/scrutinizer/g/jeroennoten/Laravel-AdminLTE.svg?style=flat-square)](https://scrutinizer-ci.com/g/jeroennoten/Laravel-AdminLTE)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/jeroennoten/Laravel-AdminLTE/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/jeroennoten/Laravel-AdminLTE/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/jeroennoten/Laravel-AdminLTE.svg?style=flat-square)](https://packagist.org/packages/jeroennoten/Laravel-AdminLTE)
+[![Quality Score](https://img.shields.io/scrutinizer/g/mzaman/Laravel-AdminLTE.svg?style=flat-square)](https://scrutinizer-ci.com/g/mzaman/Laravel-AdminLTE)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/mzaman/Laravel-AdminLTE/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/mzaman/Laravel-AdminLTE/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/mzaman/Laravel-AdminLTE.svg?style=flat-square)](https://packagist.org/packages/mzaman/Laravel-AdminLTE)
 
 This package provides an easy way to quickly set up [AdminLTE](https://almsaeedstudio.com) with Laravel 5. I've removed every plugin but [iCheck](http://icheck.fronteed.com/), so you can start building on your template immediately. You can always add more plugins if you should need them. This package also includes a replacement for `make:auth` that uses AdminLTE styled views instead of the default ones.
 
@@ -31,7 +31,7 @@ This package provides an easy way to quickly set up [AdminLTE](https://almsaeeds
 1. Require the package using composer:
 
     ```
-    composer require jeroennoten/laravel-adminlte
+    composer require mzaman/laravel-adminlte
     ```
 
 2. Add the service provider to the `providers` in `config/app.php`:
@@ -51,7 +51,7 @@ This package provides an easy way to quickly set up [AdminLTE](https://almsaeeds
 1. To update this package, first update the composer package:
 
     ```
-    composer update jeroennoten/laravel-adminlte
+    composer update mzaman/laravel-adminlte
     ```
 
 2. Then, publish the public assets with the `--force` flag to overwrite existing files
@@ -361,7 +361,7 @@ Now, you can edit the views in `resources/views/vendor/adminlte`.
 
 ## 8. Issues, Questions and Pull Requests
 
-You can report issues and ask questions in the [issues section](https://github.com/jeroennoten/Laravel-AdminLTE/issues). Please start your issue with `ISSUE: ` and your question with `QUESTION: `
+You can report issues and ask questions in the [issues section](https://github.com/mzaman/Laravel-AdminLTE/issues). Please start your issue with `ISSUE: ` and your question with `QUESTION: `
 
 If you have a question, check the closed issues first. Over time, I've been able to answer quite a few.
 
