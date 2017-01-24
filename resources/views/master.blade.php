@@ -6,6 +6,7 @@
     <title>@yield('title_prefix', config('adminlte.title_prefix', ''))
 @yield('title', config('adminlte.title', 'AdminLTE 2'))
 @yield('title_postfix', config('adminlte.title_postfix', ''))</title>
+
     <!-- Added CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Tell the browser to be responsive to screen width -->
